@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_persegipanjang"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.mada.inputdata.persegipanjang">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung luas persegi panjang"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="#B0BEC5"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/txtjudul1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan panjang"
+        android:layout_below="@+id/txtjudul1"
+        android:id="@+id/editpanjang"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="masukkan lebar"
+        android:layout_below="@+id/editpanjang"
+        android:id="@+id/editlebar"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hitung persegi panjang"
+        android:id="@+id/Hitungpersegipanjang"
+        android:layout_below="@id/editlebar"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Hasilpersegipanjang"
+        android:text="Hasil"
+        android:layout_below="@+id/Hitungpersegipanjang" />
+
+
+
+
+
+
+</RelativeLayout>
